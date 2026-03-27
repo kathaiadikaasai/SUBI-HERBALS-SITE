@@ -12,7 +12,7 @@ body{
   color:rgb(226, 10, 10);
   }
 .logo img{
-  width:350PX;
+  width:250PX;
 block-size: 150PX;
   
 }
@@ -22,7 +22,7 @@ block-size: 150PX;
 }
 
 .search input{
-  width:900PX;
+  width:500PX;
   padding: 8PX;
   border:none;
   font-size: 25px;
