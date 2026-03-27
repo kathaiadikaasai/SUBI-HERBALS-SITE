@@ -1,0 +1,119 @@
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+}
+
+.header{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  background:rgb(199, 224, 207);
+  padding:15PX 40PX;
+  color:rgb(226, 10, 10);
+  }
+.logo img{
+  width:400PX;
+block-size: 150PX;
+  
+}
+.search{
+ display: flex;
+  font-size: 80px;gap: 5px;
+}
+
+.search input{
+  width:1000PX;
+  padding: 8PX;
+  border:none;
+  font-size: 25px;
+  border-radius:5PX;
+}
+
+.search button{
+  padding: 8px 12px;
+  background:skyblue; border:none;
+  cursor:pointer;
+}
+.menu a{
+  color:rgb(7, 7, 7);
+  margin-right:50PX;
+    text-decoration:none;
+  font-size: 030px; 
+}.icons span{
+    color:rgb(7, 7, 7);
+    text-decoration:none;
+  font-size: 030px; 
+  cursor:pointer; margin-right:50PX;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f6f6;
+}
+/* MAIN PRODUCT SECTION */
+/* PRODUCT GRID */
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* desktop */
+  gap: 20px;
+  padding: 20px;
+}
+
+/* PRODUCT BOX */
+.product {
+  background: #e0b9b9;
+  padding: 15px;
+  text-align: center;
+  border-radius: 80px;
+}
+
+.product img {
+  width: 110%;
+   border-radius: 50px;
+}
+.name {font-size: 30px;
+}
+.price { font-size: 50px;
+  color:green;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 15px}
+  .description{color: #3d0e94;}
+
+button {
+  padding: 10px;
+  background: orange;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 30px
+}
+
+.footer {
+  background: #1f2933;
+  color: #ffffff;
+  margin-top: 60px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer-box h3 {
+  margin-bottom: 15px;
+}
+
+.footer-box p,
+.footer-box a {
+  font-size: 25px;
+  color: #ddd;
+  display: block;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+.footer-bottom {
+  text-align: center;
+  padding: 15px;
+  background: #111827;
+  font-size: 14px;
+}
